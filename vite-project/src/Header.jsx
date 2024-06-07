@@ -46,8 +46,6 @@ function Header() {
 			"responsive_nav"
 		);
 	};
- 
-
     return (
         <div>
             <header id="header" className="pt-[27px] pb-[19px] bg-[#DCE9E2]">
@@ -69,7 +67,7 @@ function Header() {
                             <li>
                                 <a id="text" className="text-[#00856F] transition-all hover:font-semibold hover:text-[#00856F] pb-[24px] hover:border-b-2 border-[#00856F] "
                                     href="">Serviços</a>
-                            </li>
+                            </li>   
                             <li>
                                 <a id="text" className="text-[#00856F] transition-all hover:font-semibold hover:text-[#00856F] pb-[24px] hover:border-b-2 border-[#00856F] "
                                     href="">Depoimentos</a>
