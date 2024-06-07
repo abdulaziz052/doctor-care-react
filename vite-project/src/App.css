@@ -1,0 +1,70 @@
+.responsive_nav{
+    right: 0;
+    transition: .11s all;
+    overflow: hidden;
+}
+
+.navbar.fixed{
+    background-color: black;
+    transition: .3s ease-in-out;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+}
+.navbar.fixed{
+    top: 0;
+    max-width: 1160px;
+    width: 100%;
+    padding-top: 26px;
+    padding-bottom: 27px;
+    background-color: #00856F;
+    color: #DCE9E2;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navbar.fixed button{
+    color: #FFFFFF;
+    background-color: #00856F;
+    border-color: #FFFFFF;
+}
+.navbar.fixed a{
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+.navbar.fixed button:hover{
+    transition: .5s ease-in-out;
+    color: #00856F;
+    background-color: #FFFFFF;
+    border-color: #00856F;
+}
+.logo{
+    display: none;
+}
+.logo.fixed-logo{
+    display: flex;
+}
+.logo1{
+    display: none;
+}
+.logo1.fixed-logo1{
+    display: flex;
+}
+.hamburger.fix{
+    display: flex;
+}
+.hamburger{
+    display: none;
+}
+.hamburger1.fix1{
+    display: flex;
+}
+.hamburger1{
+    display: none;
+}
